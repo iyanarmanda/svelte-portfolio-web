@@ -6,20 +6,17 @@ import cppIcon from './svg/cpp.svg';
 import rustIcon from './svg/rust.svg';
 import reactIcon from './svg/react.svg';
 import svelteIcon from './svg/svelte.svg';
-import angularIcon from './svg/angular.svg';
 import astroIcon from './svg/astro.svg';
 import tailwindIcon from './svg/tailwind.svg';
-import bootstrapIcon from './svg/bootstrap.svg';
 import sassIcon from './svg/sass.svg';
+import nodejsIcon from './svg/nodejs.svg';
 import expressIcon from './svg/express.svg';
-import adonisIcon from './svg/adonis.svg';
 import nestjsIcon from './svg/nestjs.svg';
 import mysqlIcon from './svg/mysql.svg';
 import sqliteIcon from './svg/sqlite.svg';
 import pgIcon from './svg/pg.svg';
 import qtIcon from './svg/qt.svg';
 import mongodbIcon from './svg/mongodb.svg';
-import muiIcon from './svg/mui.svg';
 import redisIcon from './svg/redis.svg';
 import dockerIcon from './svg/docker.svg';
 import linuxIcon from './svg/linux.svg';
@@ -82,10 +79,6 @@ export const skillCategories: SkillCategory[] = [
         icon: svelteIcon,
       },
       {
-        name: "Angular",
-        icon: angularIcon,
-      },
-      {
         name: "Astro",
         icon: astroIcon,
       },
@@ -103,16 +96,8 @@ export const skillCategories: SkillCategory[] = [
         icon: tailwindIcon,
       },
       {
-        name: "Bootstrap",
-        icon: bootstrapIcon,
-      },
-      {
         name: 'SASS',
         icon: sassIcon,
-      },
-      {
-        name: "Material UI",
-        icon: muiIcon,
       },
     ],
   },
@@ -120,12 +105,12 @@ export const skillCategories: SkillCategory[] = [
     title: "Backend",
     skills: [
       {
-        name: "Express",
-        icon: expressIcon,
+        name: "Node.js",
+        icon: nodejsIcon,
       },
       {
-        name: "AdonisJS",
-        icon: adonisIcon,
+        name: "Express",
+        icon: expressIcon,
       },
       {
         name: "NestJS",

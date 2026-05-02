@@ -99,7 +99,7 @@
   }
 
   .skills-title {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 600;
     margin-bottom: 0.75rem;
     padding-bottom: 0.5rem;
